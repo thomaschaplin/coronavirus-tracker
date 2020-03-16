@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #fff;
+  font-family: 'Comfortaa', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+h1 {
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.input {
+  border: 1px solid 333;
+  border-radius: .3em;
+  padding: .25rem;
+  width: 10em;
+}
+
+.equals {
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 2rem;
+}
