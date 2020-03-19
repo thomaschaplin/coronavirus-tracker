@@ -18,7 +18,7 @@ function App() {
       .then(res => res.json())
       .then(data => {
         setCountriesOptions([...Object.keys(data.countries).sort()])
-        setFirstCountry([...Object.keys(data.countries).sort()][241])
+        setFirstCountry([...Object.keys(data.countries).sort()][240])
       })
   }, [])
 
