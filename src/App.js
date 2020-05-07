@@ -17,8 +17,8 @@ function App() {
     fetch(`${BASE_URL}/countries`)
       .then(res => res.json())
       .then(data => {
-        setCountriesOptions([...Object.keys(data.countries).sort()])
-        setFirstCountry([...Object.keys(data.countries).sort()][240])
+        setCountriesOptions(data.countries.map(country => country.name).sort())
+        setFirstCountry(data.countries[177].name)
       })
   }, [])
 
